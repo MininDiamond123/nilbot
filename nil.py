@@ -1,6 +1,11 @@
 import discord
+import os
+import io
 import random
-import gui
+from discord.ext import commands
+from contextlib import redirect_stdout
+import traceback
+import textwrap
 
 bot = commands.Bot(command_prefix = "ch.", description = "This is a customized bot for The Clubhouse! If you have any suggestions, please tag a Bot Developer.", owner_id = 389472478545575937)
 
